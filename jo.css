@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url(b1.jpg);
+}
+
+.head {
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+    font-family: 'Praise', cursive;
+    color: blue;
+}
+
+.c1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 50px black;
+    margin-bottom: 15px;
+}
+
+img:hover {
+    width: 400px;
+    height: 400px;
+}
